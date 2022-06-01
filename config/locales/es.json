@@ -1,0 +1,20 @@
+{
+	"lang": "es",
+	"title": "Bsale - Base",
+	"comun": {
+		"editButtonText": "Editar",
+		"saveButtonText": "Guardar",
+		"selectImageText": "Selecciona una imagen...",
+		"inputCharacterMax": "45",
+		"inputCharacterCounter": "0 / 45",
+		"textareaCharacterMax": "300",
+		"textareaCharacterCounter": "0 / 300"
+	},
+    "form": {
+		"name": "Nombre",
+		"lastName": "Apellido",
+		"phone": "Teléfono",
+		"type": "Tipo"
+	}
+    
+}

@@ -1,0 +1,98 @@
+
+
+
+// @import "material-components-web/index";
+@use "@material/theme" with (
+  // $primary: #ff5c1a,
+  $primary: #31b9dd,
+  $secondary: #31b9dd,
+  $surface: #fff,
+  $background: #fff,
+  $on-primary: #fff,
+  $on-secondary: #fff,
+);
+
+
+
+@import "@material/button/mdc-button";
+@import "@material/icon-button/mdc-icon-button";
+@import "@material/fab/mdc-fab";
+@import "@material/textfield/mdc-text-field";
+@import "@material/form-field/mdc-form-field";
+@import "@material/card/mdc-card";
+@import "@material/list/mdc-list";
+@import "@material/menu-surface/mdc-menu-surface";
+@import "@material/menu/mdc-menu";
+@import "@material/select/mdc-select";
+@import "@material/typography/mdc-typography";
+@import "@material/textfield/icon/mdc-text-field-icon";
+@import "@material/dialog/mdc-dialog";
+@import "@material/checkbox/mdc-checkbox";
+@import "@material/chips/mdc-chips";
+
+@import "@material/top-app-bar/mdc-top-app-bar";
+@import "@material/elevation/mdc-elevation";
+@import "@material/layout-grid/mdc-layout-grid";
+@import "@material/radio/mdc-radio";
+
+$mdc-typography-subtitle1: (
+  font-size: 12px,
+  text-transform: none,
+);
+
+
+
+
+.mdc-select {
+  margin-bottom: 10px;
+  --mdc-typography-subtitle1-font-size: 12px;
+}
+
+.mdc-button {
+
+  float: right;
+  --mdc-typography-button-font-size: 12px;
+}
+
+
+.mdc-text-field-date {
+
+  max-width: 200px;
+}
+
+.mdc-text-field 
+{
+  width: 100%;
+  margin-bottom: 10px;
+  --mdc-typography-subtitle1-font-size: 12px;
+}
+
+
+
+.mdc-text-field--textarea:not(.mdc-text-field--disabled) 
+{ 
+  background-color: whitesmoke; 
+}
+
+.mdc-card
+ {
+    padding: 2%;
+ }
+.mdc-card--outlined
+ {
+   border-width: 2px; 
+  
+  }
+
+  .mdc-dialog
+  {
+  
+    --mdc-typography-body1-font-size: 12px;
+
+  }
+
+  .material-icons-outlined {
+
+    opacity: 0.6;
+
+  }
